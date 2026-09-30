@@ -59,7 +59,7 @@ async function makeMRZCrop(file,threshold=158){return makeCrop(file,.48,1,thresh
 let mrzOnly=false,mrzStream=null;$('#docPhoto').onclick=()=>{mrzOnly=false;docFile.click()};
 $('#mrzPhoto').onclick=async()=>{try{mrzStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'environment'},width:{ideal:1920},height:{ideal:1080}},audio:false});$('#mrzVideo').srcObject=mrzStream;await $('#mrzVideo').play();$('#mrzCam').hidden=false;$('#mrzPhoto').disabled=true;status.textContent='Inquadra soltanto le 3 righe MRZ nel riquadro e premi Scatta MRZ.';status.className=''}catch(e){status.textContent='Impossibile aprire la fotocamera: '+e.message;status.className='bad'}};
 function stopMRZCam(){if(mrzStream){mrzStream.getTracks().forEach(t=>t.stop());mrzStream=null}$('#mrzCam').hidden=true;$('#mrzPhoto').disabled=false}
-$('#mrzCancel').onclick=stopMRZCam;
+$('#mrzCancel').onclick=stopMRZCam;$('#closeMrz').onclick=stopMRZCam;
 $('#mrzShot').onclick=async()=>{const v=$('#mrzVideo');if(!v.videoWidth)return;const sx=Math.round(v.videoWidth*.04),sy=Math.round(v.videoHeight*.32),sw=Math.round(v.videoWidth*.92),sh=Math.round(v.videoHeight*.36),cv=document.createElement('canvas');cv.width=sw;cv.height=sh;cv.getContext('2d').drawImage(v,sx,sy,sw,sh,0,0,sw,sh);stopMRZCam();status.textContent='Analisi locale della MRZ…';const blob=await new Promise(res=>cv.toBlob(res,'image/jpeg',.95));mrzOnly=true;const dt=new DataTransfer();dt.items.add(new File([blob],'mrz.jpg',{type:'image/jpeg'}));docFile.files=dt.files;docFile.dispatchEvent(new Event('change'))};
 async function readMRZMulti(worker,file){
  const attempts=[];
