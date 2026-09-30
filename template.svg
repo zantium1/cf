@@ -1,15 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941">
-<rect width="1672" height="941" fill="#fff"/>
-<g font-family="Arial,sans-serif" fill="#111" stroke="#222" stroke-width="2">
-<rect x="55" y="45" width="1560" height="850" rx="4" fill="#fafafa" stroke="#ddd"/>
-<rect x="105" y="180" width="440" height="125" rx="18" fill="#fff" stroke="#0877c9" stroke-width="20"/>
-<rect x="625" y="95" width="395" height="170" rx="18" fill="#fff" stroke="#0877c9" stroke-width="20"/>
-<circle cx="1330" cy="135" r="78" fill="#d9e8f8" stroke="none"/><path d="M1270 115h120l-60-42zM1280 130h100v14h-100zm10 22h18v45h-18zm32 0h18v45h-18zm32 0h18v45h-18zm-74 53h100v14h-100z" fill="#173b82" stroke="none"/>
-<rect x="1140" y="225" width="405" height="90" rx="16" fill="#0877c9" stroke="none"/><text x="1342" y="282" fill="#fff" stroke="none" font-size="38" text-anchor="middle">Comune di Massa</text>
-<rect x="90" y="355" width="1470" height="88" fill="none"/><text x="112" y="410" stroke="none" font-size="31">RICEVUTA N°</text><rect x="325" y="370" width="330" height="58" fill="#fff" stroke="none"/>
-<rect x="90" y="465" width="1470" height="140" fill="none"/><line x1="570" y1="465" x2="570" y2="605"/><line x1="1080" y1="465" x2="1080" y2="605"/><line x1="90" y1="520" x2="1560" y2="520"/>
-<text x="112" y="505" stroke="none" font-size="29">Il/La Sig./Sig.ra</text><text x="825" y="505" stroke="none" font-size="29" text-anchor="middle">Codice Fiscale/Partita Iva</text><text x="1320" y="505" stroke="none" font-size="29" text-anchor="middle">Numero Pernottamenti</text>
-<rect x="115" y="535" width="405" height="52" fill="#fff" stroke="none"/><rect x="615" y="535" width="420" height="52" fill="#fff" stroke="none"/><rect x="1240" y="535" width="155" height="52" fill="#fff" stroke="none"/>
-<rect x="90" y="605" width="1470" height="90" fill="none"/><text x="112" y="660" stroke="none" font-size="29">ha versato €</text><rect x="315" y="620" width="155" height="55" fill="#fff" stroke="none"/><text x="1020" y="660" stroke="none" font-size="29" text-anchor="middle">a titolo di Imposta di Soggiorno a favore del Comune di Massa.</text>
-<rect x="90" y="695" width="1470" height="165" fill="none"/><line x1="830" y1="695" x2="830" y2="860"/><text x="112" y="755" stroke="none" font-size="29">Marina di Massa, li</text><rect x="112" y="775" width="500" height="65" fill="#fff" stroke="none"/><text x="855" y="755" stroke="none" font-size="29">Per ricevuta</text><rect x="855" y="775" width="665" height="65" fill="#fff" stroke="none"/>
+<rect width="1672" height="941" fill="#fff"/><rect x="14" y="18" width="1644" height="905" fill="none" stroke="#111" stroke-width="3"/>
+<g font-family="Arial,sans-serif" fill="#111">
+<g transform="translate(65 45)"><circle cx="125" cy="125" r="118" fill="#f5e4cc" stroke="#a66a2c" stroke-width="5"/><ellipse cx="118" cy="145" rx="82" ry="92" fill="#8b451f"/><circle cx="126" cy="96" r="61" fill="#a95424"/><path d="M93 47l14-34 15 30 18-35 9 42 27-24-6 46" fill="#c92b22"/><path d="M170 99l55 20-53 18z" fill="#d89b39"/><circle cx="145" cy="84" r="8" fill="#111"/><path d="M105 132q40 34 78 4" fill="none" stroke="#6b2d18" stroke-width="8"/></g>
+<text x="330" y="120" font-family="cursive" font-size="64" font-style="italic">Locanda da</text><text x="405" y="250" font-family="cursive" font-size="128" font-style="italic" font-weight="700">Cocò</text>
+<text x="1230" y="105" font-size="58" font-weight="700" text-anchor="middle">RICEVUTA</text><text x="1230" y="175" font-size="52" font-weight="700" text-anchor="middle">TASSA DI SOGGIORNO</text>
+<text x="1230" y="235" font-size="28" text-anchor="middle">Art. 4 del D.Lgs. 14 marzo 2011, n. 23</text><text x="1230" y="275" font-size="28" text-anchor="middle">e del regolamento comunale vigente</text>
+<line x1="14" y1="320" x2="1658" y2="320" stroke="#111" stroke-width="3"/>
+<text x="60" y="395" font-size="34">RICEVUTA N°</text><line x1="370" y1="400" x2="900" y2="400" stroke="#111" stroke-width="2"/>
+<text x="1010" y="395" font-size="34">Data di arrivo</text><line x1="1280" y1="400" x2="1600" y2="400" stroke="#111" stroke-width="2"/>
+<text x="60" y="480" font-size="34">Il/La Sig./Sig.ra</text><line x1="370" y1="485" x2="1600" y2="485" stroke="#111" stroke-width="2"/>
+<text x="60" y="565" font-size="34">Codice Fiscale/Partita Iva</text><line x1="530" y1="570" x2="1600" y2="570" stroke="#111" stroke-width="2"/>
+<text x="60" y="650" font-size="34">Numero Pernottamenti</text><line x1="530" y1="655" x2="940" y2="655" stroke="#111" stroke-width="2"/>
+<text x="60" y="735" font-size="34">ha versato €</text><line x1="320" y1="740" x2="1040" y2="740" stroke="#111" stroke-width="2"/>
+<text x="60" y="805" font-size="31">a titolo di Imposta di Soggiorno a favore del Comune di Massa.</text>
+<text x="60" y="880" font-size="32">Marina di Massa, lì</text><line x1="400" y1="885" x2="900" y2="885" stroke="#111" stroke-width="2"/>
+<text x="1230" y="865" font-size="32" text-anchor="middle">Per ricevuta</text><line x1="1080" y1="900" x2="1510" y2="900" stroke="#111" stroke-width="2"/>
 </g></svg>
